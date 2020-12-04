@@ -1,3 +1,3 @@
-module github.com/wowchemy/wowchemy-widget-starter
+module github.com/sstoeckl/wowchemy-widget-CV
 
 go 1.15
