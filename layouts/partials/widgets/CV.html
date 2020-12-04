@@ -25,7 +25,6 @@
     <a class="btn btn-primary btn-outline btn-xs" href="CV/cv.pdf">
       Download Complete CV
     </a>
-    {{% staticref "CV/cv.pdf" "newtab" %}}Download my CV{{% /staticref %}}
   </div>
   <div class="col-12 col-lg-8">
 
@@ -37,6 +36,7 @@
         <h3>{{ i18n "interests" | markdownify }}</h3>
         <ul class="ul-interests">
           {{ range . }}
+          Test blabla     {{% staticref "CV/cv.pdf" "newtab" %}}Download my CV{{% /staticref %}}
           <li>{{ . | markdownify | emojify }}</li>
           {{ end }}
         </ul>
